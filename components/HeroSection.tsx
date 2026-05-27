@@ -34,7 +34,7 @@ export default function HeroSection() {
         onEnded={handleP1End}
         className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${activeVideo === 0 ? "opacity-100" : "opacity-0 pointer-events-none"}`}
       >
-        <source src="https://res.cloudinary.com/drmhejyjf/video/upload/v1779862855/Superestrella_MultiCam_p1_a4ixcy.mp4" type="video/mp4" />
+        <source src="https://res.cloudinary.com/drmhejyjf/video/upload/q_auto,f_auto/v1779862855/Superestrella_MultiCam_p1_a4ixcy.mp4" type="video/mp4" />
       </video>
 
       {/* Superestrella MultiCam p2 */}
@@ -47,7 +47,7 @@ export default function HeroSection() {
         onEnded={handleP2End}
         className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${activeVideo === 1 ? "opacity-100" : "opacity-0 pointer-events-none"}`}
       >
-        <source src="https://res.cloudinary.com/drmhejyjf/video/upload/v1779862855/Superestrella_MultiCam_p2_isklyf.mp4" type="video/mp4" />
+        <source src="https://res.cloudinary.com/drmhejyjf/video/upload/q_auto,f_auto/v1779862855/Superestrella_MultiCam_p2_isklyf.mp4" type="video/mp4" />
       </video>
 
       {/* Logo video */}
@@ -60,7 +60,7 @@ export default function HeroSection() {
         onEnded={handleLogoEnd}
         className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${activeVideo === 2 ? "opacity-100" : "opacity-0 pointer-events-none"}`}
       >
-        <source src="https://res.cloudinary.com/drmhejyjf/video/upload/v1779862889/TAM_-_VISUAL_gvi11q.mp4" type="video/mp4" />
+        <source src="https://res.cloudinary.com/drmhejyjf/video/upload/q_auto,f_auto/v1779862889/TAM_-_VISUAL_gvi11q.mp4" type="video/mp4" />
       </video>
 
       {/* Dark overlay */}

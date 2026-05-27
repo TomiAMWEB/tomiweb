@@ -24,12 +24,12 @@ const events: Event[] = [
     label: "AURA",
     location: "Buenos Aires",
     date: "2025",
-    video: "https://res.cloudinary.com/drmhejyjf/video/upload/v1779863479/TAM_AURA_vykv7v.mp4",
+    video: "https://res.cloudinary.com/drmhejyjf/video/upload/q_auto,f_auto/v1779863479/TAM_AURA_vykv7v.mp4",
     media: [
-      { type: "photo", src: "/aura/SaveClip.App_504002105_18515113762009777_7877405234668958257_n.jpg", alt: "AURA foto 1" },
-      { type: "photo", src: "/aura/SaveClip.App_510342037_18515113771009777_947525664564778388_n.jpg", alt: "AURA foto 2" },
-      { type: "video", src: "/aura/SaveClip.App_AQNlOhGGxPWbXw6fptsZAFO_DxnD0uR7qFeWM6XNJDkWtC34aRcV9O3h-qMPB_D2LvcH7_lTFzlG7rtLnStVAbCMBziaMqZ02V3iueg.mp4" },
-      { type: "video", src: "https://res.cloudinary.com/drmhejyjf/video/upload/v1779862808/SaveClip.App_AQPbBubBc8POnVq8AIP9fFMB_Gr4YiEro-Uz2kgk_61SiD5A1Tizb7lr0mojZXWx8DM3elnkiF2ylR7H6J3DdBM3a5rK4IHRkjWR_Lk_vkple4.mp4" },
+      { type: "photo", src: "https://res.cloudinary.com/drmhejyjf/image/upload/q_auto,f_auto/Aura1.jpg", alt: "AURA foto 1" },
+      { type: "photo", src: "https://res.cloudinary.com/drmhejyjf/image/upload/q_auto,f_auto/Aura2.jpg", alt: "AURA foto 2" },
+      { type: "video", src: "https://res.cloudinary.com/drmhejyjf/video/upload/q_auto,f_auto/v1779864458/Aura3_gjjnwu.mp4" },
+      { type: "video", src: "https://res.cloudinary.com/drmhejyjf/video/upload/q_auto,f_auto/v1779864459/Aura4_enfluw.mp4" },
     ],
   },
   {
@@ -37,12 +37,12 @@ const events: Event[] = [
     label: "BNN",
     location: "BNN Costanera · Buenos Aires",
     date: "2025",
-    video: "https://res.cloudinary.com/drmhejyjf/video/upload/v1779862947/TAM_BNN_vkz9ab.mp4",
+    video: "https://res.cloudinary.com/drmhejyjf/video/upload/q_auto,f_auto/v1779862947/TAM_BNN_vkz9ab.mp4",
     media: [
-      { type: "video", src: "/bnn/BANANA_DROP_2.mp4"},
-      { type: "video", src: "/bnn/BANANA_DROP_3.mp4" },
+      { type: "video", src: "https://res.cloudinary.com/drmhejyjf/video/upload/q_auto,f_auto/v1779865393/BANANA_DROP_2_mxcsq5.mp4" },
+      { type: "video", src: "https://res.cloudinary.com/drmhejyjf/video/upload/q_auto,f_auto/v1779865309/BANANA_DROP_3_pdhxqg.mp4" },
       { type: "video", src: "/bnn/BANANA_DROP_5.mp4"},
-      { type: "video", src: "/bnn/BANANA_DROP_10.mp4" },
+      { type: "video", src: "https://res.cloudinary.com/drmhejyjf/video/upload/q_auto,f_auto/v1779865575/BANANA_DROP_10_r1ulqb.mp4" },
     ],
   },
   {
@@ -50,7 +50,7 @@ const events: Event[] = [
     label: "KOKO",
     location: "Buenos Aires",
     date: "2025",
-    video: "https://res.cloudinary.com/drmhejyjf/video/upload/v1779862939/TAM_KOKO_yo8qzb.mp4",
+    video: "https://res.cloudinary.com/drmhejyjf/video/upload/q_auto,f_auto/v1779862939/TAM_KOKO_yo8qzb.mp4",
     media: [],
   },
   {
@@ -58,7 +58,7 @@ const events: Event[] = [
     label: "MONTEVIDEO",
     location: "Montevideo, Uruguay",
     date: "2025",
-    video: "https://res.cloudinary.com/drmhejyjf/video/upload/v1779862952/TAM_MONTEVIDEO_sl30vo.mp4",
+    video: "https://res.cloudinary.com/drmhejyjf/video/upload/q_auto,f_auto/v1779862952/TAM_MONTEVIDEO_sl30vo.mp4",
     media: [],
   },
 ]
