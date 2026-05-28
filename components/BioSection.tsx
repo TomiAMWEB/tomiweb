@@ -159,14 +159,15 @@ export default function BioSection() {
             <canvas
               ref={canvasRef}
               width={520}
-              height={520}
+              height={720}
               className="absolute pointer-events-none select-none"
               style={{
                 top: "-20%",
                 left: "50%",
                 transform: "translateX(-50%)",
                 width: "520px",
-                height: "520px",
+                height: "720px",
+                marginTop: "-90px",
               }}
             />
           </div>

@@ -26,8 +26,8 @@ const events: Event[] = [
     date: "2025",
     video: "https://res.cloudinary.com/drmhejyjf/video/upload/q_auto,f_auto/v1779863479/TAM_AURA_vykv7v.mp4",
     media: [
-      { type: "photo", src: "https://res.cloudinary.com/drmhejyjf/image/upload/q_auto,f_auto/Aura1.jpg", alt: "AURA foto 1" },
-      { type: "photo", src: "https://res.cloudinary.com/drmhejyjf/image/upload/q_auto,f_auto/Aura2.jpg", alt: "AURA foto 2" },
+      { type: "photo", src: "/aura/aura1.jpg", alt: "AURA foto 1" },
+      { type: "photo", src: "/aura/aura2.jpg", alt: "AURA foto 2" },
       { type: "video", src: "https://res.cloudinary.com/drmhejyjf/video/upload/q_auto,f_auto/v1779864458/Aura3_gjjnwu.mp4" },
       { type: "video", src: "https://res.cloudinary.com/drmhejyjf/video/upload/q_auto,f_auto/v1779864459/Aura4_enfluw.mp4" },
     ],
@@ -51,7 +51,10 @@ const events: Event[] = [
     location: "Buenos Aires",
     date: "2025",
     video: "https://res.cloudinary.com/drmhejyjf/video/upload/q_auto,f_auto/v1779862939/TAM_KOKO_yo8qzb.mp4",
-    media: [],
+    media: [
+      { type: "photo", src: "/koko/koko.jpg", alt: "KOKO foto 1" },
+      { type: "video", src: "/koko/TAM KOKO.mp4" },
+    ],
   },
   {
     id: "montevideo",
@@ -59,7 +62,13 @@ const events: Event[] = [
     location: "Montevideo, Uruguay",
     date: "2025",
     video: "https://res.cloudinary.com/drmhejyjf/video/upload/q_auto,f_auto/v1779862952/TAM_MONTEVIDEO_sl30vo.mp4",
-    media: [],
+    media: [
+      { type: "photo", src: "/bla/foto.JPEG", alt: "Montevideo foto" },
+      { type: "video", src: "/bla/CLIP 8-1.mp4" },
+      { type: "video", src: "/bla/clip14-1.mp4" },
+      { type: "video", src: "/bla/clip43-1.mp4" },
+      { type: "video", src: "/bla/TAM MONTEVIDEO.MP4" },
+    ],
   },
 ]
 
